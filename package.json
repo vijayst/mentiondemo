@@ -1,0 +1,68 @@
+{
+    "name": "dandi-ui",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://vijayst:HpJkr123@github.com/DandiInc/dandi-ui.git",
+    "author": "vijayst <vijay@itsdandi.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server",
+        "build:dev": "webpack --display-error-details --config webpack.dev.config.js",
+        "build:prod": "webpack --display-error-details --config webpack.production.config.js",
+        "precommit": "lint-staged"
+    },
+    "dependencies": {
+        "antd": "^3.4.3",
+        "axios": "^0.17.1",
+        "d3": "^4.13.0",
+        "email-validator": "^2.0.3",
+        "firebase": "^4.12.0",
+        "history": "^4.7.2",
+        "lodash": "^4.17.5",
+        "moment": "^2.21.0",
+        "query-string": "^6.1.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-faux-dom": "^4.1.0",
+        "react-icons": "^2.2.7",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.2.2",
+        "redux": "^3.7.2",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.2.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.2.1",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "copy-webpack-plugin": "^4.3.1",
+        "css-loader": "^0.28.9",
+        "eslint": "^4.17.0",
+        "eslint-loader": "^1.9.0",
+        "eslint-plugin-react": "^7.6.1",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "file-loader": "^1.1.6",
+        "husky": "^0.14.3",
+        "less": "^3.0.2",
+        "less-loader": "^4.1.0",
+        "lint-staged": "^6.1.0",
+        "node-sass": "^4.7.2",
+        "prettier": "^1.10.2",
+        "react-hot-loader": "^3.1.3",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.20.1",
+        "uglifyjs-webpack-plugin": "^1.2.5",
+        "url-loader": "^0.6.2",
+        "webpack": "^3.11.0",
+        "webpack-dev-server": "^2.11.1"
+    },
+    "lint-staged": {
+        "*.js": [
+            "prettier --single-quote --tab-width 4 --write",
+            "git add"
+        ]
+    }
+}
