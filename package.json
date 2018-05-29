@@ -2,7 +2,7 @@
     "name": "dandi-ui",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "https://vijayst:HpJkr123@github.com/DandiInc/dandi-ui.git",
+    "repository": "git@github.com:vijayst/mentiondemo.git",
     "author": "vijayst <vijay@itsdandi.com>",
     "license": "MIT",
     "scripts": {
